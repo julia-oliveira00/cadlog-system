@@ -7,7 +7,7 @@
     <title>Cadastre-se</title>
 </head>
 <body>
-    <div>
+    <main>
         <h2>Cadastro de usuário</h2>
         <form action="" method="post">
             <label for="name">Nome</label>
@@ -18,7 +18,17 @@
 
             <label for="password">Senha</label>
             <input type="password" id="password" name="password" required>
+
+            <label for="perfil">Perfil:</label>
+            <select name="perfil" id="perfil">
+                <option value="admin">Admin</option>
+                <option value="gestor">Gestor</option>
+                <option value="colaborador">Colaborador</option>
+            </select>
+
+            <button type="submit">Cadastrar</button>
         </form>
-    </div>
+        <a href="">Voltar ao Login</a>
+    </main>
 </body>
 </html>

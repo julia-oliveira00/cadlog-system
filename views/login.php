@@ -8,18 +8,18 @@
 </head>
 <body>
     <main>
-            <form action="" method="post">
-                <section>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required>
-                </section>
-                <section>
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" name="password" required>
-                </section>
-                <button type="submit">Login</button>
-            </form>
-            <a href="http://">Cadastre-se</a>
+        <form action="" method="post">
+            <section>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </section>
+            <button type="submit">Login</button>
+        </form>
+        <a href="">Cadastre-se</a>
     </main>
 </body>
 </html>
