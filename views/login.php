@@ -14,8 +14,8 @@
                 <input type="email" id="email" name="email" required>
             </section>
             <section>
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" required>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
             </section>
             <button type="submit">Login</button>
         </form>

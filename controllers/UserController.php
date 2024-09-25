@@ -4,7 +4,7 @@ class UserController
      //Função para registrar um novo usuário
     public function register(){
             //Verifica se a requisição HTTP é do tipo POST
-            if($_SERVER ['REQUEST_METHOD'] == 'POST'){
+        if($_SERVER ['REQUEST_METHOD'] == 'POST'){
             //Coleta dados enviados e armazena em um array
             $data = [
                 'nome'  => $_POST['nome'],

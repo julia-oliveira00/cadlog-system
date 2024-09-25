@@ -10,14 +10,14 @@
     <main>
         <h2>Cadastro de usuário</h2>
         <form action="index.php?action=register" method="post">
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" required>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
 
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
 
             <label for="perfil">Perfil:</label>
             <select name="perfil" id="perfil">
