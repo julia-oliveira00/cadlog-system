@@ -11,7 +11,7 @@ class AuthController
         //Verifica de a requisição HTTP é do tipo POST, ou seja, se o formulário foi enviado
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $email = $_POST['email'];
-            $senha = $_POST['password'];
+            $senha = $_POST['senha'];
 
             $user = User::findByEmail($email);
             //password_verify verifica se a senha corresponde a um hash
