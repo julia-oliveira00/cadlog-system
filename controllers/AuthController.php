@@ -15,6 +15,7 @@ class AuthController
 
             $user = User::findByEmail($email);
             //password_verify verifica se a senha corresponde a um hash
+
             if($user && password_verify($senha, $user['senha'])){
                 session_start();
 
@@ -28,6 +29,11 @@ class AuthController
         }else{
             include 'views/login.php';
         }
+    }
+    public function logout(){
+        session_start();
+        session_destroy();
+        header('Location: index.php');
     }
 }
 
