@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type='text/css' media='screen' href="main.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="views/CSS/main.css">
 </head>
 <body>
     <main>
-        <form action="" method="post">
+        <h2>Entre na sua conta</h2>
+        <form action="index.php?action=login" method="post">
             <section>
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
