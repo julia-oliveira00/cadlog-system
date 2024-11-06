@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+p {
+    text-align: center;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212; /* fundo preto */
-    color: #E0E0E0; /* texto em cinza claro */
+    background-color: #121212;
+    color: #E0E0E0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +20,9 @@ body {
 }
 
 main {
-    background: #1E1E1E; /* fundo do main em um tom mais claro de preto */
+    background: #1E1E1E;
     border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7); /* sombra forte */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     width: 350px;
 }
@@ -26,14 +30,14 @@ main {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #E94E77; /* tom de vermelho vibrante */
+    color: #E94E77;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #E0E0E0; /* cor clara para os labels */
+    color: #E0E0E0;
 }
 
 input[type="text"],
@@ -43,23 +47,23 @@ select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #444444; /* borda escura */
+    border: 1px solid #444444;
     border-radius: 4px;
-    background-color: #333333; /* fundo escuro para inputs */
-    color: #E0E0E0; /* texto claro nos inputs */
+    background-color: #333333;
+    color: #E0E0E0;
     transition: border-color 0.3s;
 }
 
 input:focus,
 select:focus {
-    border-color: #E94E77; /* foco com o vermelho */
+    border-color: #E94E77;
     outline: none;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #E94E77; /* botão vermelho */
+    background-color: #E94E77;
     color: white;
     border: none;
     border-radius: 4px;
@@ -69,14 +73,14 @@ button {
 }
 
 button:hover {
-    background-color: #F06C91; /* tom mais claro de vermelho no hover */
+    background-color: #F06C91;
 }
 
 a {
     display: block;
     text-align: center;
     margin-top: 15px;
-    color: #E94E77; /* link vermelho */
+    color: #E94E77;
     text-decoration: none;
 }
 
