@@ -20,9 +20,9 @@
  
 <label for="perfil">Perfil:</label>
 <select name="perfil" id="perfil">
-<option value="admin" <?=$user['perfil'] == 'admin' ?>>Admin</option>
-<option value="gestor" >Gestor</option>
-<option value="colaborador" >Colaborador</option>
+<option value="admin" <?=$user['perfil'] == 'admin' ? 'selected' : '' ?>>Admin</option><!---operador ternáio - torna o perfil no perfil selecionado--> 
+<option value="gestor" <?=$user['perfil'] == 'gestor' ? 'selected' : '' ?>>Gestor</option>
+<option value="colaborador" <?=$user['perfil'] == 'colaborador' ? 'selected' : '' ?>>Colaborador</option>
 </select>
  
             <button type="submit" class="btn">Salvar</button>
